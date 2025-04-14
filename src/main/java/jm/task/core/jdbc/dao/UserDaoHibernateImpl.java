@@ -1,5 +1,6 @@
 package jm.task.core.jdbc.dao;
 
+
 import jm.task.core.jdbc.model.User;
 
 import java.util.List;
@@ -18,6 +19,8 @@ public class UserDaoHibernateImpl implements UserDao {
     @Override
     public void dropUsersTable() {
 
+
+
     }
 
     @Override
@@ -28,6 +31,7 @@ public class UserDaoHibernateImpl implements UserDao {
     @Override
     public void removeUserById(long id) {
 
+
     }
 
     @Override
@@ -37,6 +41,7 @@ public class UserDaoHibernateImpl implements UserDao {
 
     @Override
     public void cleanUsersTable() {
+
 
     }
 }
