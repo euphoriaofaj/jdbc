@@ -8,6 +8,10 @@ public class Util {
     private static final String USERNAME = "root";
     private static final String PASSWORD = "imgbas01";
 
+    private Util(){
+
+    }
+
     public static Connection getConnection() {
         Connection connection = null;
         try {
